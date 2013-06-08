@@ -1,0 +1,21 @@
+{
+  "name": "acme/my-bundle",
+  "type": "symfony-bundle",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pierre-Gildas MILLON",
+      "email": "pg.millon@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": ">=2.1.5, <2.2-dev"
+  },
+  "autoload": {
+    "psr-0": {"Acme\\MyBundle": ""}
+  },
+  "target-dir": "Acme/MyBundle"
+}
