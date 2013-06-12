@@ -22,6 +22,7 @@
       "Symfony\\BundleSkeleton": ""
     }
   },
+  "target-dir": "Symfony/BundleSkeleton",
   "scripts": {
     "post-create-project-cmd": "Symfony\\BundleSkeleton\\ScriptHandler::buildClasses"
   }
