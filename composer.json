@@ -12,10 +12,17 @@
   ],
   "require": {
     "php": ">=5.3.3",
-    "symfony/symfony": ">=2.1.5, <2.2-dev"
+    "symfony/symfony": ">=2.3, <2.4-dev"
+  },
+  "require-dev": {
+    "composer/composer": "1.0.0-alpha7"
   },
   "autoload": {
-    "psr-0": {"Acme\\MyBundle": ""}
+    "psr-0": {
+      "Symfony\\BundleSkeleton": ""
+    }
   },
-  "target-dir": "Acme/MyBundle"
+  "scripts": {
+    "post-create-project-cmd": "Symfony\\BundleSkeleton\\ScriptHandler::buildClasses"
+  },
 }
