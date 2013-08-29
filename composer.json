@@ -13,7 +13,7 @@
   "require": {
     "php": ">=5.3.3",
     "symfony/symfony": ">=2.3, <2.4-dev",
-    "pgmillon/bundle-generator": "*@dev"
+    "pgmillon/bundle-generator": "1.*"
   },
   "scripts": {
     "post-create-project-cmd": "Symfony\\BundleGenerator\\ScriptHandler::buildClasses"
